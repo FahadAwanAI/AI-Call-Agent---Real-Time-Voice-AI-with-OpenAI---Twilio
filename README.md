@@ -34,7 +34,7 @@ Before you begin, ensure you have:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/rehan-dev/ai-call-agent.git
+git clone https://github.com/FahadAwanAI/AI-Call-Agent---Real-Time-Voice-AI-with-OpenAI---Twilio
 cd ai-call-agent
 ```
 
@@ -69,7 +69,6 @@ ngrok http 5050
 
 4. Make a call using the API endpoint:
 ```bash
-curl -X POST "http://localhost:5050/make-call" -H "Content-Type: application/json" -d '{"to_phone_number": "+1234567890"}'
 ```
 
 ## Project Structure
@@ -125,14 +124,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 **Rehan Khan**
-[LinkedIn Profile](https://www.linkedin.com/in/rehankhantht/)
+[LinkedIn Profile]https://www.linkedin.com/in/growthmaker/
 
 ## Acknowledgments
 
 - OpenAI for providing the Realtime API
 - Twilio for their excellent voice services
 - The open-source community for inspiration and support
-
-## Disclaimer
-
-This project is not officially affiliated with OpenAI or Twilio. Use at your own risk.
